@@ -1,4 +1,4 @@
-# afat
+# afat (Anki - Firmware Analyzer Tool)
 Script for searching the extracted or mounted firmware file system for items of interest such as:
 
 * etc/shadow and etc/passwd
