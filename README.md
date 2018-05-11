@@ -14,9 +14,10 @@ Script for searching the extracted or mounted firmware file system for items of 
 * Experimental support for making calls to the Shodan API using the Shodan CLI
 
 ## Usage
-* 1. make a tmp directory to mount root filesystem `$ mkdir fsmount`
-* 2. mount image `$ sudo mount -o loop /home/tt/apq8009-robot-sysfs.img fsmount/`
-* 3. Run afat `$ sudo ./afat.sh fsmount/`
+1 make a tmp directory to mount root filesystem `$ mkdir fsmount`
+2 mount image `$ sudo mount -o loop /home/tt/apq8009-robot-sysfs.img fsmount/`
+3 Run afat `$ sudo ./afat.sh fsmount/`
+4 Review log file with afat<datetime> stamp
 * If you wish to use the static code analysis portion of the script, please install eslint: `npm i -g eslint`
 * `./afat path to root file system`
 
